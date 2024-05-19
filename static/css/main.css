@@ -309,4 +309,39 @@ section {
   flex-direction: column;
   gap: 3rem;
   list-style: none;
+}
+
+.review-item {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.even {
+  flex-direction: row-reverse;
+}
+
+.review-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.review-text {
+  font-size: 1.5rem;
+  color: rgba(130, 130, 130, 0.8);
+}
+
+.review-author {
+  color: #46c672;
+}
+
+.reviewer-avatar {
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
