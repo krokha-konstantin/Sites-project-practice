@@ -1,0 +1,39 @@
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.header-logo{
+  display: flex;
+  gap: 1rem;
+}
+.header-logo-text{
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: .5rem 0;
+  font-weight: bold;
+}
+.header-icon{
+  background-color: $accent;
+  fill: white;
+  height: 1.2rem;
+  width: 1.2rem;
+  padding: .4rem;
+  border-radius: 50%;
+  box-sizing: content-box;
+  overflow: visible;
+}
+.header-links-list{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: .5rem 0;
+}
+.header-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .9rem;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}

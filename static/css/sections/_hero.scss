@@ -1,0 +1,23 @@
+.hero{
+  height: calc(100vh - 5rem);
+  background-image: url(../img/Background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.hero > .container {
+  padding: 10rem;
+  .section-title{
+    font-size: 7rem;
+  }
+  .section-comment{
+    font-size: 2rem;
+    margin: 3rem auto;
+  }
+  .button{
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    a {
+      padding: 2rem 2.6rem;
+    }
+  }
+}

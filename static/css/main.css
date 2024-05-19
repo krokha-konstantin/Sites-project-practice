@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 20vw;
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.light-theme {
+  color: white;
+}
+
+.section-comment {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: rgba(130, 130, 130, 0.8);
+}
+
+.button {
+  background-color: #46c672;
+  border-radius: 4rem;
+  margin: 3rem auto;
+  font-size: 1.5rem;
+  display: block;
+  border: 0;
+}
+.button a {
+  padding: 2rem 2.6rem;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: white;
+}
+.button:hover a {
+  color: black;
+}
+
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header-logo {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-logo-text {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.header-icon {
+  background-color: #46c672;
+  fill: white;
+  height: 1.2rem;
+  width: 1.2rem;
+  padding: 0.4rem;
+  border-radius: 50%;
+  box-sizing: content-box;
+  overflow: visible;
+}
+
+.header-links-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.header-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.hero {
+  height: calc(100vh - 5rem);
+  background-image: url(../img/Background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero > .container {
+  padding: 10rem;
+}
+.hero > .container .section-title {
+  font-size: 7rem;
+}
+.hero > .container .section-comment {
+  font-size: 2rem;
+  margin: 3rem auto;
+}
+.hero > .container .button {
+  border-radius: 3rem;
+  font-size: 1.5rem;
+}
+.hero > .container .button a {
+  padding: 2rem 2.6rem;
+}
+
+.services {
+  margin: 10rem 0;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.service-subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.service-desc {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.service-icon {
+  height: 4rem;
+  width: 4rem;
+  display: block;
+  margin: 3rem auto;
+}
+
+.banner-content {
+  margin-left: 25vw;
+  background-image: url(../img/Background2.jpg);
+  background-size: cover;
+  padding: 6rem 20vw 6rem 6rem;
+}
+.banner-content .container {
+  margin: 0;
+}
+.banner-content .section-title {
+  text-align: left;
+}
+.banner-content .section-title span {
+  color: #46c672;
+}
+.banner-content .section-comment {
+  text-align: left;
+}
+.banner-content .button {
+  margin: 3rem;
+}
+
+.banner-item-text {
+  color: rgba(130, 130, 130, 0.8);
+  font-size: 1.5rem;
+}
+
+.banner-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.banner-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.banner-item-icon {
+  box-sizing: content-box;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.8rem;
+  overflow: visible;
+  border-radius: 50%;
+  border: 2px solid white;
+  opacity: 0.4;
+}
+
+.project-info {
+  margin-top: 6rem;
+}
+
+.project-left {
+  width: max(60%, 20rem);
+}
+
+.project-info-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.project-info-desc, .project-info-comment, .point-comment {
+  font-size: 1.3rem;
+  color: rgba(130, 130, 130, 0.8);
+}
+
+.point-name {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.project-points {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.project-point {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-link {
+  margin: 2rem 0;
+}
+
+.project-redirect {
+  text-decoration: none;
+  color: #46c672;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.point-icon {
+  box-sizing: content-box;
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+  overflow: visible;
+  border-radius: 50%;
+  border: 2px solid black;
+}/*# sourceMappingURL=main.css.map */

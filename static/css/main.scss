@@ -1,0 +1,9 @@
+$accent: #46c672;
+$transparent-white: rgba(130, 130, 130, 0.8);
+
+@import "adjustments/adjustment";
+@import "sections/header"; 
+@import "sections/hero"; 
+@import "sections/services"; 
+@import "sections/banner"; 
+@import "sections/project"; 

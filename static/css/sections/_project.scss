@@ -1,0 +1,49 @@
+.project-info{
+  margin-top: 6rem;
+}
+.project-left{
+  width: max(60%, 20rem);
+}
+.project-info-title{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.project-info-desc, .project-info-comment, .point-comment{
+  font-size: 1.3rem;
+  color: $transparent-white;
+}
+.point-name{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.project-points{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.project-point{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.project-link{
+  margin: 2rem 0;
+}
+.project-redirect{
+  text-decoration: none;
+  color: $accent;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.point-icon{
+  box-sizing: content-box;
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+  overflow: visible;
+  border-radius: 50%;
+  border: 2px solid black;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 20vw;
+}
+.section-title{
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.light-theme {
+  color: white;
+}
+.section-comment {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: $transparent-white;
+}
+.button{
+  background-color: $accent;
+  border-radius: 4rem;
+  margin: 3rem auto;
+  font-size: 1.5rem;
+  display: block;
+  border: 0;
+  a {
+    padding: 2rem 2.6rem;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+.button:hover{
+  background-color: white;
+  a {
+    color: black;
+  }
+}

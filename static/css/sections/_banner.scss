@@ -1,0 +1,46 @@
+.banner-content{
+  margin-left: 25vw;
+  background-image: url(../img/Background2.jpg);
+  background-size: cover;
+  padding: 6rem 20vw 6rem 6rem;
+  .container {
+    margin: 0;
+  }
+  .section-title{
+    text-align: left;
+    span{
+      color: $accent;
+    }
+  }
+  .section-comment{
+    text-align: left;
+  }
+  .button{
+    margin: 3rem;
+  }
+}
+.banner-item-text{
+  color: $transparent-white;
+  font-size: 1.5rem;
+}
+.banner-list{
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.banner-item{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.banner-item-icon{
+  box-sizing: content-box;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: .8rem;
+  overflow: visible;
+  border-radius: 50%;
+  border: 2px solid white;
+  opacity: 0.4;
+}

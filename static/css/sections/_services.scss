@@ -1,0 +1,28 @@
+.services{
+  margin: 10rem 0;
+}
+.services-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+  width: 100%;
+  margin-top: 5rem;
+}
+.service-subtitle{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.service-desc{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.service-icon{
+  height: 4rem;
+  width: 4rem;
+  display: block;
+  margin: 3rem auto;
+}
