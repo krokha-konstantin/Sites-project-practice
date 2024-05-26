@@ -363,4 +363,20 @@ section {
 
 .reviewer-avatar {
   border-radius: 50%;
+}
+
+.call {
+  background-color: #46c672;
+  padding: 7rem 0;
+}
+
+.bordered-button {
+  border: 3px solid white;
+  border-radius: 1rem;
+}
+
+.sponsors-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
