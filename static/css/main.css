@@ -47,13 +47,45 @@
   background-color: white;
 }
 .button:hover a {
-  color: black;
+  color: #46c672;
 }
 
 section {
   margin: 10rem 0;
 }
 
+@media screen and (max-width: 1440px) {
+  .section-title {
+    font-size: 3rem;
+  }
+  .section-comment {
+    font-size: 1.5rem;
+  }
+  section {
+    margin: 6rem 0;
+  }
+  .button {
+    background-color: #46c672;
+    border-radius: 3rem;
+    margin: 2rem auto;
+    font-size: 1.1rem;
+    display: block;
+    border: 0;
+  }
+  .button a {
+    padding: 1.5rem 2rem;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    margin: 0 10%;
+  }
+}
 .header > .container {
   display: flex;
   justify-content: space-between;
@@ -102,13 +134,14 @@ section {
 .hero {
   margin-top: 0;
   height: calc(100vh - 5rem);
+  min-height: 60rem;
   background-image: url(../img/Background.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .hero > .container {
-  padding: 10rem;
+  padding: 10rem 0;
 }
 .hero > .container .section-title {
   font-size: 7rem;
@@ -125,10 +158,27 @@ section {
   padding: 2rem 2.6rem;
 }
 
-.services {
-  margin: 10rem 0;
+@media screen and (max-height: 1440px) {
+  .hero > .container {
+    padding: 7rem 0;
+  }
+  .hero > .container .section-title {
+    font-size: 5rem;
+  }
+  .hero > .container .section-comment {
+    font-size: 1.5rem;
+  }
+  .hero > .container .button {
+    border-radius: 2rem;
+    font-size: 1rem;
+  }
+  .hero > .container .button a {
+    padding: 1.5rem 2rem;
+  }
+  .hero {
+    min-height: 40rem;
+  }
 }
-
 .services-list {
   display: flex;
   justify-content: space-between;
@@ -160,6 +210,7 @@ section {
 }
 
 .banner-content {
+  position: relative;
   margin-left: 25vw;
   background-image: url(../img/Background2.jpg);
   background-size: cover;
@@ -210,16 +261,29 @@ section {
   opacity: 0.4;
 }
 
-.project {
-  margin: 10rem 0;
+.banner-content::before {
+  content: "";
+  height: 100%;
+  width: max(50vw, 20rem);
+  position: absolute;
+  top: 0;
+  left: min(-25vw, -10rem);
+  z-index: -1;
+  background-color: #eaeaea;
+  background-image: url(../img/gear2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .project-info {
   margin-top: 6rem;
+  display: flex;
 }
 
 .project-left {
-  width: max(60%, 20rem);
+  width: calc(100% - min(20vw, 25rem));
+  position: relative;
 }
 
 .project-info-title {
@@ -263,6 +327,14 @@ section {
   font-weight: bold;
 }
 
+.project-link:hover .project-redirect {
+  color: black;
+}
+
+.project-link:hover .arrow {
+  filter: brightness(0);
+}
+
 .point-icon {
   box-sizing: content-box;
   height: 2rem;
@@ -273,6 +345,20 @@ section {
   border: 2px solid black;
 }
 
+.project-right {
+  height: 100%;
+  width: max(20vw, 15rem);
+}
+
+.ipad {
+  max-width: calc(100% + 20vw);
+}
+
+@media screen and (max-width: 1024px) {
+  .ipad {
+    max-width: calc(100% + 10vw);
+  }
+}
 .values-list {
   display: flex;
   justify-content: space-around;
@@ -364,6 +450,8 @@ section {
 
 .reviewer-avatar {
   border-radius: 50%;
+  height: 14rem;
+  width: 14rem;
 }
 
 .call {
@@ -384,7 +472,8 @@ section {
 
 .feed {
   background-color: #1c1c1c;
-  padding: 7rem;
+  padding: 7rem 0;
+  margin-bottom: 0;
 }
 
 .feed-container {

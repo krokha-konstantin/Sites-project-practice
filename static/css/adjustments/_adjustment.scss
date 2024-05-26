@@ -40,9 +40,42 @@
 .button:hover{
   background-color: white;
   a {
-    color: black;
+    color: $accent;
   }
 }
 section{
   margin: 10rem 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .section-title{
+    font-size: 3rem;
+  }
+  .section-comment{
+    font-size: 1.5rem;
+  }
+  section{
+    margin: 6rem 0;
+  }
+  .button{
+    background-color: $accent;
+    border-radius: 3rem;
+    margin: 2rem auto;
+    font-size: 1.1rem;
+    display: block;
+    border: 0;
+    a {
+      padding: 1.5rem 2rem;
+      display: inline-block;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container{
+    margin: 0 10%;
+  }
 }
