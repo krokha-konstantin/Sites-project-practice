@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-height: 1440px) {
+@media screen and (max-width: 1440px) {
   .hero > .container {
     padding: 7rem 0;
     .section-title{
@@ -32,6 +32,27 @@
     }
     .section-comment{
       font-size: 1.5rem;
+    }
+    .button{
+      border-radius: 2rem;
+      font-size: 1rem;
+      a {
+        padding: 1.5rem 2rem;
+      }
+    }
+  }
+  .hero{
+    min-height: 40rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero > .container {
+    padding: 7rem 0;
+    .section-title{
+      font-size: 3rem;
+    }
+    .section-comment{
+      font-size: 1.3rem;
     }
     .button{
       border-radius: 2rem;

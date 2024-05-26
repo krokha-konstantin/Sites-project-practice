@@ -24,3 +24,8 @@
   display: block;
   margin: 3rem auto;
 }
+@media (max-width: 1024px) {
+  .services-list{
+    flex-direction: column;
+  }
+}

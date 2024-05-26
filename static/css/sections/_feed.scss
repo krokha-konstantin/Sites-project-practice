@@ -7,6 +7,7 @@
   display: grid;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   gap: 4rem;
 }
 .footer-cat-title{
@@ -23,6 +24,9 @@
   flex-direction: column;
   color: $transparent-white;
   font-size: 1.4rem;
+}
+.footer-cat{
+  max-width: 25rem;
 }
 .cat-item-text:hover{
   color: #6cc385;
@@ -46,4 +50,9 @@
 }
 .tweet-time{
   font-size: 1rem;
+}
+@media (max-width: 1024px) {
+  .feed-container{
+    grid-template-columns: 1fr;
+  }
 }

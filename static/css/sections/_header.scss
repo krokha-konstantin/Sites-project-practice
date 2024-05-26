@@ -1,7 +1,8 @@
 .header > .container {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 .header-logo{
   display: flex;
@@ -36,4 +37,67 @@
   line-height: 1rem;
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
+}
+.show-nav{
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .header-logo-text{
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ham-lines{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .ham-lines *{
+    width: 2rem;
+    height: 3px;
+    background-color: $transparent-white;
+  }
+  .show-nav{
+    display: block;
+    position: absolute;
+    right: 0;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    opacity: 0;
+    z-index: 3;
+  }
+  #menustate:checked~.ham-lines .burger-top{
+    transform: translateY(10px) rotateZ(-45deg);
+    transition: 100ms;
+  }
+  #menustate:checked~.ham-lines .burger-bottom{
+    transform: translateY(-11px) rotateZ(45deg);
+    transition: 100ms;
+  }
+  #menustate:checked~.ham-lines .burger-mid{
+    transform: scale(0.1);
+    transition: 80ms;
+  }
+  #menustate:checked~.header-links{
+    right: -5vw;
+    display: block;
+  }
+  .header-links{
+    position: absolute;
+    display: none;
+    right: calc(-5vw - 100%);
+    top: 5rem;
+    height: 100vh;
+    background-color: white;
+    padding: 1rem;
+  }
+  .header-links-list{
+    flex-direction: column;
+  }
+  .header > .container{
+    margin: 0 5%;
+  }
 }

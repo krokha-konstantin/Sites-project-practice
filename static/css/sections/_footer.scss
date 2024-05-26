@@ -40,3 +40,13 @@
   font-weight: bold;
   color: $transparent-white;
 }
+@media (max-width: 768px) {
+  .footer-rights{
+    font-size: 1rem;
+  }
+  .footer-container{
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+}
