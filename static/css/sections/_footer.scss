@@ -1,6 +1,6 @@
 .footer-container{
   display: grid;
-  grid-template-columns: 1fr 20rem 1fr;
+  grid-template-columns: 1fr 25rem 1fr;
   justify-items: center;
   align-items: center;
   padding: 2rem 0;
@@ -15,6 +15,10 @@
   background-color: #1c1c1c;
   border-radius: 50%;
   overflow: visible;
+}
+.social-link{
+  border-radius: 50%;
+  display: block;
   height: 3rem;
   width: 3rem;
   padding: .8rem;
@@ -39,6 +43,14 @@
   font-size: 1.5rem;
   font-weight: bold;
   color: $transparent-white;
+  font-family: $roboto;
+}
+@media (max-width: 1024px) {
+  .footer-container{
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 @media (max-width: 768px) {
   .footer-rights{

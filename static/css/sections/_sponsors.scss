@@ -4,6 +4,11 @@
   justify-content: space-between;
   gap: 2rem;
 }
+.sponsor-item:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 100ms;
+}
 @media (max-width: 1024px) {
   .sponsors-list{
     flex-direction: column;

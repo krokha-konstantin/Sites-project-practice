@@ -8,7 +8,11 @@
   display: flex;
   gap: 1rem;
 }
+.header-logo:hover{
+  cursor: pointer;
+}
 .header-logo-text{
+  font-family: $montserrat;
   font-size: 1rem;
   text-transform: uppercase;
   margin: .5rem 0;
@@ -35,8 +39,12 @@
   text-decoration: none;
   font-size: .9rem;
   line-height: 1rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: $transparent-white;
   font-weight: bold;
+  font-family: $montserrat;
+}
+.header-link:hover {
+  color: black;
 }
 .show-nav{
   display: none;

@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 3rem;
   list-style: none;
+  margin-top: 7rem;
 }
 .review-item{
   display: flex;
@@ -43,9 +44,11 @@
 .review-text{
   font-size: 1.5rem;
   color: $transparent-white;
+  font-family: $roboto;
 }
 .review-author{
   color: $accent;
+  font-family: $roboto;
 }
 .reviewer-avatar{
   border-radius: 50%;
@@ -60,5 +63,11 @@
   .review-item{
     gap: 1.5rem;
     align-items: center;
+  }
+  .review-content{
+    padding: 1rem;
+  }
+  .review-text{
+    font-size: 1.3rem;
   }
 }

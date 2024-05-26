@@ -7,6 +7,7 @@
   margin: 0 20%;
 }
 .section-title{
+  font-family: $montserrat;
   font-size: 5rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -19,6 +20,7 @@
   font-size: 2.5rem;
   text-align: center;
   margin: 1rem 0;
+  font-family: $roboto;
   color: $transparent-white;
 }
 .button{
@@ -35,6 +37,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: $montserrat;
   }
 }
 .button:hover{
@@ -73,9 +76,35 @@ section{
       text-decoration: none;
     }
   }
-}
-@media screen and (max-width: 1024px) {
   .container{
     margin: 0 10%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section-title{
+    font-size: 2.5rem;
+  }
+  .section-comment{
+    font-size: 1.2rem;
+  }
+  section{
+    margin: 4rem 0;
+  }
+  .container{
+    margin: 0 5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section-title{
+    font-size: 2rem;
+  }
+  .section-comment{
+    font-size: 1rem;
+  }
+  section{
+    margin: 3rem 0;
+  }
+  .container{
+    margin: 0 4%;
   }
 }
