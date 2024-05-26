@@ -411,7 +411,7 @@ section {
   font-size: 1.4rem;
 }
 
-.footer-cat:hover .cat-item-text {
+.cat-item-text:hover {
   color: #6cc385;
 }
 
@@ -438,4 +438,55 @@ section {
 
 .tweet-time {
   font-size: 1rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 20rem 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.socials-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.social-item {
+  background-color: #1c1c1c;
+  border-radius: 50%;
+  overflow: visible;
+  height: 3rem;
+  width: 3rem;
+  padding: 0.8rem;
+}
+
+.social-item-icon {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+
+#tw:hover {
+  background-color: #00adf0;
+}
+
+#fb:hover {
+  background-color: #23589b;
+}
+
+#pi:hover {
+  background-color: #ec1a24;
+}
+
+#gg:hover {
+  background-color: #fd2209;
+}
+
+.footer-rights {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #939393;
 }/*# sourceMappingURL=main.css.map */
