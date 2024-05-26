@@ -1,0 +1,48 @@
+.feed{
+  background-color: #1c1c1c;
+  padding: 7rem;
+}
+.feed-container{
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+.footer-cat-title{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+.cat-list{
+  margin: 2rem 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  color: $transparent-white;
+  font-size: 1.4rem;
+}
+.footer-cat:hover .cat-item-text{
+  color: #6cc385;
+}
+.cat-item-main{
+  display: flex;
+  gap: 1rem;
+}
+.tweet-hashtags-list{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.hashtag{
+  font-weight: bold;
+}
+.cat-item{
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+}
+.tweet-time{
+  font-size: 1rem;
+}

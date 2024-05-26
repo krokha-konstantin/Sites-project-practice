@@ -1,5 +1,5 @@
 $accent: #46c672;
-$transparent-white: rgba(130, 130, 130, 0.8);
+$transparent-white: #939393;
 
 @import "adjustments/adjustment";
 @import "sections/header"; 
@@ -11,3 +11,4 @@ $transparent-white: rgba(130, 130, 130, 0.8);
 @import "sections/reviews"; 
 @import "sections/call"; 
 @import "sections/sponsors"; 
+@import "sections/feed"; 
