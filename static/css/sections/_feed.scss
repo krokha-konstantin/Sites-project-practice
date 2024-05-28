@@ -54,6 +54,10 @@
 .tweet-time{
   font-size: 1rem;
 }
+.cat-item-icon{
+  height: 2rem;
+  width: 2rem;
+}
 @media (max-width: 1024px) {
   .feed-container{
     grid-template-columns: 1fr;

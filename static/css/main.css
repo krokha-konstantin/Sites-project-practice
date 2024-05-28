@@ -99,7 +99,7 @@ section {
     margin: 0 10%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   .section-title {
     font-size: 2.5rem;
   }
@@ -113,7 +113,7 @@ section {
     margin: 0 5%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
   .section-title {
     font-size: 2rem;
   }
@@ -124,7 +124,7 @@ section {
     margin: 3rem 0;
   }
   .container {
-    margin: 0 4%;
+    margin: 0 5%;
   }
 }
 .header > .container {
@@ -436,13 +436,14 @@ section {
   }
 }
 .project > .container {
-  margin-right: 0;
+  margin: 0;
 }
 
 .project-info {
   margin-top: 6rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  margin-left: 20vw;
 }
 
 .project-head {
@@ -532,6 +533,9 @@ section {
   .ipad {
     max-width: 100%;
   }
+  .project-info {
+    margin-left: 10vw;
+  }
 }
 @media screen and (max-width: 768px) {
   .project-info {
@@ -550,6 +554,7 @@ section {
   .project-info {
     align-items: center;
     grid-template-columns: 1fr;
+    margin-left: 5vw;
   }
   .project-points-container {
     grid-column: 1;
@@ -806,6 +811,11 @@ section {
 
 .tweet-time {
   font-size: 1rem;
+}
+
+.cat-item-icon {
+  height: 2rem;
+  width: 2rem;
 }
 
 @media (max-width: 1024px) {

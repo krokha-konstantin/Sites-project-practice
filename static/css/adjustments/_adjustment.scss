@@ -80,7 +80,7 @@ section{
     margin: 0 10%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   .section-title{
     font-size: 2.5rem;
   }
@@ -94,7 +94,7 @@ section{
     margin: 0 5%;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
   .section-title{
     font-size: 2rem;
   }
@@ -105,6 +105,6 @@ section{
     margin: 3rem 0;
   }
   .container{
-    margin: 0 4%;
+    margin: 0 5%;
   }
 }
