@@ -63,8 +63,11 @@
 .project-link:hover .arrow{
   filter: brightness(0);
 }
-
 .point-icon{
+  height: 100%;
+  width: 100%;
+}
+.point-icon-container{
   box-sizing: content-box;
   height: 2rem;
   width: 2rem;

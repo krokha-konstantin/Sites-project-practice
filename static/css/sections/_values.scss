@@ -17,7 +17,7 @@
   font-size: 1.3rem;
   font-family: $roboto;
 }
-.value-img{
+.value-img-container{
   box-sizing: content-box;
   margin: 2rem auto;
   display: block;
@@ -27,6 +27,10 @@
   border-radius: 50%;
   border: 4px solid $transparent-white;
   overflow: visible;
+}
+.value-img{
+  height: 100%;
+  width: 100%;
 }
 .value-item{
   position: relative;
